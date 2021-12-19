@@ -1,5 +1,6 @@
 body {
     color:chocolate;
+    background-color: black;
     text-align: center;
     font-family: Courier;
     font-size: 16px;
@@ -16,7 +17,7 @@ body {
 }
 #cabecera{
 
-    background-color:cadetblue;
+    background-color:url("../imagenes/dragon.png") no-repeat center center;
     color: white;
     margin: 0;
     padding: 0.5em;
@@ -24,6 +25,12 @@ body {
     box-shadow: 0px 5px 3px 0px rgba(0 ,0, 0 , 0.75);
 
 
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 
@@ -41,6 +48,7 @@ body {
 
 #post{
 
+    background-color: white;
     padding: 1em;
 
 }
